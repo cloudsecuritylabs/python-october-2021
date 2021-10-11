@@ -1,3 +1,10 @@
+# Relational Operators
+# 1. Equality Operator (==)
+# 2. Greater than (>) >=
+# 3. Less than (<) <=
+# 4. Not Equal !=
+
+
 # similar to lab 1
 # get user age
 # if age < 100, print too young!
