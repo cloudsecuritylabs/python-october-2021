@@ -10,6 +10,8 @@
 # if age < 100, print too young!
 # type casting
 
+# talk about indentation here...blocks 4 spaces!
+
 
 
 # Precision is a problem
