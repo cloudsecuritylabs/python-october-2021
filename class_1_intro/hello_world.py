@@ -1,11 +1,11 @@
 # # print("hello world")
 #
-my_string = "hello Class. It's a beutiful day"
-print(my_string)
-
-my_string = 10
-
-my_string = True
+# my_string = "hello Class. It's a beutiful day"
+# print(my_string)
+#
+# my_string = 10
+#
+# my_string = True
 
 
 #
@@ -29,7 +29,9 @@ x = input("Enter something: ")
 print(x)
 print(type(x))
 
-print(int(x)*10)
+input()
 
-
-jar = "cookie"
+# print(int(x)*10)
+#
+#
+# jar = "cookie"
