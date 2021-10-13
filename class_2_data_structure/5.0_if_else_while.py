@@ -1,5 +1,5 @@
 # conditionals
-i_want_to_eat_pizza = False
+i_want_to_eat_pizza = True
 i_want_to_watch_movie = False
 
 #how variable can make life better
