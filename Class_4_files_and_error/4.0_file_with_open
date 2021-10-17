@@ -1,0 +1,10 @@
+# no need to have any close statement
+try:
+    with open('check3.txt', "r") as file:
+        print(file.read())
+
+except FileNotFoundError:
+    print("File is missing")
+
+
+

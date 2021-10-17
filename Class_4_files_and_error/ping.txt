@@ -1,0 +1,6 @@
+PING google.com (173.194.219.139) 56(84) bytes of data.
+64 bytes from ya-in-f139.1e100.net (173.194.219.139): icmp_seq=1 ttl=102 time=13.0 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 12.955/12.955/12.955/0.000 ms
