@@ -1,0 +1,10 @@
+from random import randrange
+
+dice  = { 1:0, 2:0, 3:0, 4:0, 5:0, 6:0}
+dice_roll = int(input("How many time do you want to roll the dice? "))
+
+for each_roll in range(dice_roll):
+    roll_result = randrange(1,7)
+    dice[roll_result] = dice[roll_result] + 1
+
+print(dice)

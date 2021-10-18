@@ -1,0 +1,13 @@
+# Everything in Python is an objects!
+# Event primitives are objects
+my_int = 100
+my_str = "basu"
+my_list = ['a', 'b', 'c']
+my_none = None
+
+print(type(my_int))
+print(type(my_str))
+print(type(my_list))
+print(type(my_none))
+
+# type is roughly synonymous with class
