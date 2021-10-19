@@ -1,10 +1,26 @@
-from random import randrange
+# def dice_roll_function():
+#     from random import randrange
+#     dice = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+#     print(type(dice))
+#     dice_roll = int(input("How many time do you want to roll the dice? "))
+#     for each_roll in range(dice_roll):
+#         roll_result = randrange(1, 7)
+#         dice[roll_result] = dice[roll_result] + 1
+#     # print(dice)
+#     return dice
+#
+# # dice_roll_method()
+#
+# print(dice_roll_function())
+# # print(type(dice_roll_function()))
 
-dice  = { 1:0, 2:0, 3:0, 4:0, 5:0, 6:0}
-dice_roll = int(input("How many time do you want to roll the dice? "))
 
-for each_roll in range(dice_roll):
-    roll_result = randrange(1,7)
-    dice[roll_result] = dice[roll_result] + 1
+# print("HeLLO".lower())
 
-print(dice)
+
+def print_mul(message ="Hello", times=5):
+    for i in range(times):
+        print(message)
+
+print_mul("hi joseph", 3)
+

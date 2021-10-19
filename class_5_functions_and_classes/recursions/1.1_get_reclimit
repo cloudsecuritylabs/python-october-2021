@@ -1,20 +1,24 @@
 # https://realpython.com/python-recursion/
-from sys import getrecursionlimit
+# from sys import getrecursionlimit
+#
+# print(getrecursionlimit())
+#
+# def countdown(n):
+#     print(n)
+#     if n==0:
+#         exit() # base case
+#     else:
+#         countdown(n-1) # recursive case
 
-print(getrecursionlimit())
+# countdown(6)
 
-def countdown(n):
-    print(n)
-    if n==0: return  # base case
-    else: countdown(n-1) # recursive case
-
-countdown(6)
+# 4 > 4*3*2*1
+# 5 > 5*4*3*2*1
 
 def factorial(n):
     if n <=1:
         return 1
     else:
         return n*factorial(n-1)
-
 
 print(factorial(3))
