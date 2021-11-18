@@ -13,3 +13,8 @@ my_mixed_bag = ["1", 2, "Three", 4, "5" ]
 # print(','.join(my_mixed_bag))
 
 # works same way as
+
+
+names = ['Philip', 'Lise', 'Bond']
+counts = [len(n) for n in names]
+print(counts)

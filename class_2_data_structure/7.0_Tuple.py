@@ -19,3 +19,11 @@ print(my_tuple[1:4]) #1,2,3,4
 my_string = "hundred thousand"
 print(my_string[1:4]) #1,2,3,4
 
+# this is still a Tuple
+interesting = "Denmark", "Finland", "Norway", "Sweden"
+print(type(interesting))
+
+
+# Under the hood, lists and tuples don’t store data items at all,
+# but rather object references.
+
