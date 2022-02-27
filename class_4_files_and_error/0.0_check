@@ -1,18 +1,18 @@
 # check for knowledge
 #----------------------------------------------
-# datatype1 = ["ankan:basu", "best:teacher"]
+# datatype1 = ["ankan:basu", "excellent:instructor"]
 # print(type(datatype1))
 #
-# datatype1 = ("ankan:basu", "best:teacher")
+# datatype1 = ("ankan:basu", "not-so-excellent:instructor")
 # print(type(datatype1))
 #
-datatype1 = {"ankan:basu", "best:teacher"}
-print(type(datatype1))
-#
-datatype1 = {"ankan":"basu", "best":"teacher"}
-print(type(datatype1))
-#
-# datatype1 = {("ankan","basu"), ("best","teacher")}
+# datatype1 = {"ankan:basu", "happy:to-teach"}
+# print(type(datatype1))
+# #
+# datatype1 = {"ankan":"basu", "kahoots-are":"good though!"}
+# print(type(datatype1))
+# #
+# datatype1 = {("ankan","basu"), ("excellent","teacher")}
 # print(type(datatype1))
 
 
@@ -31,16 +31,17 @@ print(type(datatype1))
 #----------------------------------------------
 # a, b = 10, 20 # can you get user inputs?
 # print(a)
+# print(b)
 
-
-n1 = input(" Num: ")
-complex_math = 10 * n1
-print(complex_math)
+# #
+# n1 = input(" Num: ")
+# complex_math = 10 * int(n1)
+# print(complex_math)
 
 
 
 # What will happen?
-#----------------------------------------------
+# #----------------------------------------------
 # test = "hi"
 # del test
 # print(test)
@@ -57,9 +58,13 @@ print(complex_math)
 #  print(num)
 
 
+# test
+# print(10+"ten") # may be crazy.......
+
+
 # check range
 #----------------------------------------------
 # for i in range(10):
 # for i in range(5,10):
-for i in range(5, 10, 3):
+for i in range(1,4,2):
  print(i)

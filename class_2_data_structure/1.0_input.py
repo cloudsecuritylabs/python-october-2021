@@ -1,6 +1,5 @@
 # Line 30 for solution
 # string formatting
-
 # create variables for name, age
 # get user input
 # print user input - three different way - two variables

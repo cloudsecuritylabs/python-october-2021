@@ -7,7 +7,6 @@ serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # if we use localhost, it is reachable only to the machine
 # if we use private ip, reachable to the internal network
 serversocket.bind((socket.gethostname(), 80))
-
 # become a server socket
 serversocket.listen(5)
 

@@ -1,6 +1,18 @@
 
-IP = "10.068.044.033"
-splited_ip = IP.split(".")
-print(splited_ip)
-first_octet = splited_ip[0]
-print(first_octet)
+IP = input("Give me your IP: ")
+# print(type(IP))
+
+ip_octet = IP.split(".")
+# print(ip_octet)
+# print(type(ip_octet))
+
+first_ip_octet = ip_octet[0]
+
+
+if int(first_ip_octet ) < 126:
+    print("class A")
+
+
+
+
+

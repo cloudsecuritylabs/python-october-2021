@@ -14,3 +14,6 @@ if __name__ == '__main__':
     print_hi('John')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+tup = ("this is a tuple")
+print(type(tup))

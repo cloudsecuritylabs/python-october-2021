@@ -7,7 +7,7 @@ import socket
 new_socket = socket.socket()
 # new_socket = socket.socket(socket.AF_INET, socket.d)
 # IP -> string, port -> Integer
-new_socket.bind(("0.0.0.0", 60002)) # this takes a Tuple!
+new_socket.bind(("0.0.0.0", 5000)) # this takes a Tuple!
 new_socket.listen(4) # amoun of allowed connections
 conn, addr = new_socket.accept() # this takes two variable
 print(conn)
