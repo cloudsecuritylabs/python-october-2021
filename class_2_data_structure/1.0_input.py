@@ -1,54 +1,68 @@
 # Line 30 for solution
 # string formatting
-
 # create variables for name, age
 # get user input
 # print user input - three different way - two variables
 
-# name = input("Please enter your name: ")
-age = input("Please enter your age: ")
-
-# # one way print
-# print("Your name is " + name)
-print("Your age is " + age)
-
-
+# name = input("Tell me your name? ")
+# print("your name is " + name)
+# print(type(name))
 #
+# age = input("What is your age? ")
+# print("Your age is " + age)
+# print(type(age))
+#
+# input() # Fly by windows
+
+
+
+
+# name = input("Please enter your name: ")
+# age = input("Please enter your age: ")
+
+# age = 40
+# # # one way print
+
+name = "Ankan"
+age = "100"
+
+print("Your name is " + name)
+print("Your age is " + str(age)) # casting -- type casting
 #
 # # 2nd way of printing
-# print('Your name is {} and your age is {}'.format(name, age))
+print('Your name is {} and your age is {}'.format( name, age))
 #
 # # 3rd way printing
-# print(f'Your name is {name} and your age is {age}')
+print(f'Your name is {name} and your age is {age}')
 #
 # # 4th and not the recommended way to print - old C style
-# print ("your name is %s and age is %s " % (name, age))
+print ("your name is %s and age is %s " % (name, age))
 #
 # # age = 100
 # # # type castign --> intget data type to string data type
-# # print("Your age is " + str(age))
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# print("Your age is " + str(age))
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
 #
 #
 
