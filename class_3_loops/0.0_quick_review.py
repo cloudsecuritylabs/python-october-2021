@@ -1,5 +1,41 @@
+# Quick Review
+# What is a variable?
+
+
+# what is modulo
+
+
+# how to declare a list
+
+
+# how to declare a tuple
+
+
+# how to declare a set
+
+
+# how to declare a dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # # List
-#
 # new_list = ["banana", [], {}, 100, 1.1]
 #
 # my_list = []
@@ -23,7 +59,7 @@
 
 # Dictionary
 #
-a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
+# a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
 # print(a_dict['color'])
 
 # for key in a_dict:
@@ -34,14 +70,14 @@ a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
 #     print(key) # how to prin the key?
 #
 #
-for item in a_dict.items():
-    print(item)
-
-for key in a_dict.keys():
-    print(key)
-
-for value in a_dict.values():
-    print(value)
+# for item in a_dict.items():
+#     print(item)
+#
+# for key in a_dict.keys():
+#     print(key)
+#
+# for value in a_dict.values():
+#     print(value)
 
 #
 #
@@ -50,10 +86,10 @@ for value in a_dict.values():
 #
 #     # print(a_dict[key])
 #
-# # List
-x = [2, 1, 0, -1, -2]
-y = [i*i for i in x if i<0]
-# z = [i*i for i in x]
-#
-print(y)
-# print(z)
+# # # List
+# x = [2, 1, 0, -1, -2]
+# y = [i*i for i in x if i<0]
+# # z = [i*i for i in x]
+# #
+# print(y)
+# # print(z)

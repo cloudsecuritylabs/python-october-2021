@@ -1,14 +1,44 @@
 # # range starts with 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # # teach to print in a single line
 # for x in range(14):
 #   print(x)
 #   # print(x, end=' ')
 
-for x in range(6):
-  if (x > 3):
-    print(x)
-  # print(x)
-  # print(x, end=' ')
+# for x in range(6):
+#   if (x > 3):
+#     print(x)
+#   # print(x)
+#   # print(x, end=' ')
 
 
 
