@@ -1,20 +1,26 @@
 # Quick Review
 # What is a variable?
+numbers = 123
 
-
+colors = ["red", "yellow", "orange", "black", "pink"]
+print(colors[1:3])
 # what is modulo
-
+print(10%8)
 
 # how to declare a list
-
+list_ports = [80, 443]
 
 # how to declare a tuple
-
-
+tuple_ports = (80, 443, 80)
+print(tuple_ports)
 # how to declare a set
-
+set_ports = {80, 443, 80}
+print(set_ports)
 
 # how to declare a dictionary
+
+dict_ports = { "http":80, "ftp":21  }
+print(dict_ports["http"])
 
 
 
