@@ -1,18 +1,9 @@
 try:
-    x = 10/2
+    print()
 except:
-    bad_flag = True
-    print("not good")
-
+    print()
 else:
-    bad_flag = False
-    print(x)
-    print("all good")
-
+    print()
 finally:
-    if bad_flag == True:
-        print("not great")
-    else:
-        print("great")
-
+    print()
 raise Exception("Incorrect")
