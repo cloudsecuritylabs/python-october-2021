@@ -5,4 +5,5 @@ from random import choice
 # print(random.choice(places))
 
 print(random.random())  # Random float:  0.0 <= x < 1.0
-print(random.randint(0,10))
+for i in range(40):
+    print(random.randint(0,10))
