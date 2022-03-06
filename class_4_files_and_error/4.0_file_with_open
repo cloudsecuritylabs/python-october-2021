@@ -1,10 +1,17 @@
-# no need to have any close statement
+# # no need to have any close statement
+# try:
+#     with open('check3.txt', "r") as file:
+#         print(file.read())
+#
+# except FileNotFoundError:
+#     print("File is missing")
+
 try:
-    with open('check3.txt', "r") as file:
+    with open('in-class-example2.txt', "w+") as file:
+        file.write("Python class line 1\n")
+        file.write("Python class line 2\n")
+        file.seek(0)
         print(file.read())
-
+        # file.close() # python takes care of closing this file
 except FileNotFoundError:
-    print("File is missing")
-
-
-
+    print("File not found")

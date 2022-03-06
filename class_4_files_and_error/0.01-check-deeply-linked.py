@@ -5,4 +5,5 @@
 x = 10
 y = x
 x = 15
+# y = x
 print(f'x is {x} and y is {y}')

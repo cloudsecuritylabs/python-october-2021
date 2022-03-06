@@ -5,3 +5,5 @@ long_list = [1, 3, 5, 7, 9]
 for num in long_list:
     long_list.append(num)
     print(num)
+
+# [1, 3, 5, 7, 9, 1, 3, 5, 7, 9]

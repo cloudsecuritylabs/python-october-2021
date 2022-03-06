@@ -1,6 +1,6 @@
 # check range
 #----------------------------------------------
-# for i in range(10):
-# for i in range(5,10):
-for i in range(5, 10, 3):
+for i in range(5,13,3):
     print(i)
+
+# 5, 8, 11

@@ -1,5 +1,14 @@
 # import a module
 import os
+os.system("netstat -tulnp")
+print(os.getcwd())
+
+
+
+
+
+
+
 
 # print(os.system("ping -c 4 google.com")) # for linux only
 
