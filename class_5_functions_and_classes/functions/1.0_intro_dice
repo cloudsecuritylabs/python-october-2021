@@ -1,3 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # def dice_roll_function():
 #     from random import randrange
 #     dice = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
@@ -18,9 +48,9 @@
 # print("HeLLO".lower())
 
 
-def print_mul(message ="Hello", times=5):
-    for i in range(times):
-        print(message)
-
-print_mul("hi joseph", 3)
-
+# def print_mul(message ="Hello", times=5):
+#     for i in range(times):
+#         print(message)
+#
+# print_mul("hi joseph", 3)
+#

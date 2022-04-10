@@ -4,14 +4,19 @@
 3. #nc localhost 50002
 '''
 import socket
+# Create a socket
 new_socket = socket.socket()
-# new_socket = socket.socket(socket.AF_INET, socket.d)
-# IP -> string, port -> Integer
+# Bind a socket
 new_socket.bind(("0.0.0.0", 60002)) # this takes a Tuple!
-new_socket.listen(4) # amoun of allowed connections
+# Start listening
+new_socket.listen(4) # amount of allowed connections
+# create connection
+# print(type(new_socket.accept()))
 conn, addr = new_socket.accept() # this takes two variable
-print(conn)
-print(addr)
+
+print(f'conn is {conn}')
+print(f'addr is {addr}')
+# when data is received, close connection
 new_socket.close()
 
 

@@ -1,7 +1,10 @@
 import socket
 try:
      mysocket = socket.socket()
-     mysocket.connect(('127.0.0.1', 1234))
+     server_ip = '127.0.0.1'
+     server_port = 1234
+     server_details = (server_ip , server_port)
+     mysocket.connect(server_details)
      print("connection establish...")
      while True:
          serverData = mysocket.recv(2048).decode()

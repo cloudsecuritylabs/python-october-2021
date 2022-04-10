@@ -19,17 +19,17 @@
 # function with a loop
 # print_me(message, number_of_times)
 #
-def class_sentiment(sentiment="Confident"):
-    print(sentiment)
-class_sentiment("not so confident")
-# class_sentiment()
-
+# def class_sentiment(sentiment="Confident"):
+#     print(sentiment)
+# class_sentiment("not so confident")
+# # class_sentiment()
 #
-def return_many():
-    first_name = 'ankan'
-    last_name = 'basu'
-    return first_name, last_name
-
-print(return_many())
-
-print(type(return_many()))
+# #
+# def return_many():
+#     first_name = 'ankan'
+#     last_name = 'basu'
+#     return first_name, last_name
+#
+# print(return_many())
+#
+# print(type(return_many()))

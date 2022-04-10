@@ -8,7 +8,7 @@ clientsocket = socket.socket()
 # clientsocket = socket.socket(socket.INET, socket.SOCK_STREAM)
 # now connect to the web server on port 80 - the normal http port
 # Client sockets are normally only used for one exchange and then destroyed
-www = "www.python.org"
+www = "www.python.org" #input
 port = 80
 my_client = (www, port)
 clientsocket.connect(my_client)
